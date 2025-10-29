@@ -12,28 +12,28 @@ Set your own market chaos - choose how often prices update (2-10 minutes) and ho
 
 Price changes happen randomly within your settings (set 5 minutes = changes occur anywhere from 2-5 minutes), making timing your sales an actual strategy.
 
-[b]You might check your stash and find your Bitcoin jumped 30% in value, or dropped just as much![/b]
+**You might check your stash and find your Bitcoin jumped 30% in value, or dropped just as much!**
 
-[u]Keep in mind the trader in game buys items at -50% of the market value.[/u]
+<u>Keep in mind the trader in game buys items at -50% of the market value.</u>
 
-[img]https://i.postimg.cc/ftthNBkM/price.png[/img] [img]https://i.postimg.cc/477TgBnJ/price1.png[/img]
+![Price Screenshot 1](https://i.postimg.cc/ftthNBkM/price.png) ![Price Screenshot 2](https://i.postimg.cc/477TgBnJ/price1.png)
 
 You can control the mod via the F6 settings menu while your in your hideout. You
 can also now access the menu via a button on the Bitcoin miner UI.
 
-[img]https://i.postimg.cc/Lsn3ccyg/screen4.png[/img]
+![Settings Menu](https://i.postimg.cc/Lsn3ccyg/screen4.png)
 
-[img]https://i.postimg.cc/0Q7StQrV/bitcoin-settings-button.png[/img]
+![Bitcoin Settings Button](https://i.postimg.cc/0Q7StQrV/bitcoin-settings-button.png)
 
 You can enable the HUD price trend indicator to give you a quick visual of the current Bitcoin price trend.
 
-[img]https://i.postimg.cc/MGvYT3zc/hideout-display.png[/img]
+![HUD Price Trend Indicator](https://i.postimg.cc/MGvYT3zc/hideout-display.png)
 
 If you are sat around in your hideout when the price changes you will see an in game notification showing you the price change.
 
-[img]https://i.postimg.cc/HLqXfVcZ/screen3.png[/img]
+![Price Change Notification](https://i.postimg.cc/HLqXfVcZ/screen3.png)
 
-[b]Also now supports all in game languages![/b]
+**Also now supports all in game languages!**
 
 (also added a Chinese title & description for this mod on steam so no more dual languages on the mod page)
 
