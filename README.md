@@ -18,12 +18,9 @@ Price changes happen randomly within your settings (set 5 minutes = changes occu
 
 ![Price Screenshot 1](https://i.postimg.cc/ftthNBkM/price.png) ![Price Screenshot 2](https://i.postimg.cc/477TgBnJ/price1.png)
 
-You can control the mod via the F6 settings menu while your in your hideout. You
-can also now access the menu via a button on the Bitcoin miner UI.
+You can control the mod via the in game setting menu (Esc -> Settings -> Bitcoin Settings)
 
-![Settings Menu](https://i.postimg.cc/Lsn3ccyg/screen4.png)
-
-![Bitcoin Settings Button](https://i.postimg.cc/0Q7StQrV/bitcoin-settings-button.png)
+![Settings Menu](https://i.postimg.cc/g2GRp4sg/screen4.png)
 
 You can enable the HUD price trend indicator to give you a quick visual of the current Bitcoin price trend.
 
@@ -40,6 +37,30 @@ If you are sat around in your hideout when the price changes you will see an in 
 ==========================================================
 
 Changes
+
+v1.5.0 - MAJOR UPDATE
+- 🐛 FIXED: Missing `displayName` field in info.ini
+- 🔧 IMPROVED: Settings are now located in the games setting page
+- 🆕 ADDED: Persistent settings/data now saved in `config.ini` (cross-platform
+support: Windows AppData, macOS Library/Application Support, Linux .config).
+Data migration system included to move old settings on first run after update.
+- ⚡ OPTIMIZATION: Reduced mod initialization time by 75%
+- 🐛 FIXED: Rare bug where Bitcoin price could get stuck and not update
+- 🐛 FIXED: bug where displaying the price on HUD would not update correctly
+- 📅 NEXT: This update was needed before I implemented the new features I
+have been working on for v2.0 which includes:
+  - Bitcoin Wallet that tracks your total Bitcoin holdings across sessions
+  instead of having to hold onto physical Bitcoin items in your inventory.
+  - Ability to buy/sell items from trader/black market/new bitcoin only vendor
+  which sells rare end game loot including fully kitted out weapons and armor.
+  - Bitcoin price charting feature to visualize price trends over time.
+  - Investments where you invest in Map/Boss/Arms Dealer/Supermarket companies
+  where everytime you buy/craft/use ammo/gear/food/drink their companies share
+  prices go up!and when you dont they go down over time! (more details to
+  come)
+  - Introduce other cryptocurrencies like Ethereum and Dogecoin with their own
+  unique market dynamics and mining mechanics.
+  - Stay tuned for more updates!
 
 v1.4.1 - MINOR UPDATE
 - 🔧 ADDED: Customizable settings menu hotkey (no longer fixed to F6)
