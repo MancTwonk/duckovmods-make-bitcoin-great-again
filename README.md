@@ -1,6 +1,9 @@
 # MakeBitcoinGreatAgain - Manual Installation
 
-This folder contains a ready-to-install **MakeBitcoinGreatAgain** mod folder for manual installation.
+This folder contains a ready-to-install **MakeBitcoinGreatAgain** mod folder for
+manual installation.
+
+Download the latest version of the mod from the [releases page](https://github.com/MancTwonk/duckovmods-make-bitcoin-great-again/releases)
 
 > **Quick Install**: Just copy the `MakeBitcoinGreatAgain` folder into your game's `Mods` directory!
 
@@ -20,7 +23,7 @@ Price changes happen randomly within your settings (set 5 minutes = changes occu
 
 You can control the mod via the in game setting menu (Esc -> Settings -> Bitcoin Settings)
 
-![Settings Menu](https://i.postimg.cc/g2GRp4sg/screen4.png)
+![Settings Menu](https://i.postimg.cc/HnxGXkJx/screen4.png)
 
 You can enable the HUD price trend indicator to give you a quick visual of the current Bitcoin price trend.
 
@@ -36,9 +39,17 @@ If you are sat around in your hideout when the price changes you will see an in 
 
 ==========================================================
 
-Changes
+<u>Latest Changes</u>
 
-v1.5.0 - MAJOR UPDATE
+<u>v1.5.1 - MINOR FEATURE ADDED</u>
+- 🆕 ADDED: New settings to configure the minimum and maximum Bitcoin price
+range during market updates. This allows you to set boundaries for how low or
+high the Bitcoin price can go, adding an extra layer of control over your market
+experience. the old values were 16k min and 150k max so if you had those set
+previously it will remain the same unless you change them in the settings menu.
+- 🆕 ADDED: Reset to Defaults button within the settings menu.
+
+<u>v1.5.0 - MAJOR UPDATE</u>
 - 🐛 FIXED: Missing `displayName` field in info.ini
 - 🔧 IMPROVED: Settings are now located in the games setting page
 - 🆕 ADDED: Persistent settings/data now saved in `config.ini` (cross-platform
@@ -47,7 +58,7 @@ Data migration system included to move old settings on first run after update.
 - ⚡ OPTIMIZATION: Reduced mod initialization time by 75%
 - 🐛 FIXED: Rare bug where Bitcoin price could get stuck and not update
 - 🐛 FIXED: bug where displaying the price on HUD would not update correctly
-- 📅 NEXT: This update was needed before I implemented the new features I
+- 📅 [b]NEXT: This update was needed before I implemented the new features I
 have been working on for v2.0 which includes:
   - Bitcoin Wallet that tracks your total Bitcoin holdings across sessions
   instead of having to hold onto physical Bitcoin items in your inventory.
@@ -60,48 +71,17 @@ have been working on for v2.0 which includes:
   come)
   - Introduce other cryptocurrencies like Ethereum and Dogecoin with their own
   unique market dynamics and mining mechanics.
-  - Stay tuned for more updates!
+  - Stay tuned for more updates![/b]
 
+
+<u>Previous Changes</u>
 v1.4.1 - MINOR UPDATE
-- 🔧 ADDED: Customizable settings menu hotkey (no longer fixed to F6)
-- 💰 ADDED: Price protection feature which prevents Bitcoin price from falling below a certain threshold (16k) to avoid extreme losses
-
 v1.4.0 - MAJOR UPDATE
-- 💹 NEW FEATURE: Added a new Bitcoin price trend indicator which is displayed on the HUD (Config menu -> 'Show Price Trend Indicator on HUD')
-- 💬 ADDED: support for Simplified Chinese language
-- 💬 ADDED: support for Portuguese language
-- 💬 ADDED: support for Russian language
-- 💬 ADDED: support for Spanish language
-- ⚡ OPTIMIZATION: 99.7% reduction in unnecessary Update calls
-- 🔧 Improved localization system for better language handling
-- 🎯 Centralized Input Detection Manager which eliminates duplicate input checking
-- 👁️ Centralized Level/Scene Detection Manager to improve efficient scene state tracking
-- 🔍 Centralized Visibility Detection Manager to improve optimized UI visibility tracking
-- 🏎️ All core operations now execute under 0.1ms (ultra-fast performance)
-- 💾 Cached localization strings and market info for 95%+ cache hit rates
-- 🎮 Advanced scene-aware optimization (only runs during actual gameplay)
-- 💰 Bitcoin price now persists between game sessions (no more random reset)
-
 v1.3.0 - MINOR BUG FIX UPDATE
-- 🐛 Fixed settings text not updating on language change after game restarts
-- 🔧 Improved settings menu layout for better readability
-- 🛠️ General code optimizations and stability improvements
-- ✨ Added a new way to access the settings menu via a button on the Bitcoin miner UI to help with people having conflicts with other mods using F6
-
 v1.2.0 - CONFIG MENU UPDATE & BITCOIN MINER BOOSTER!
-- 🚀 Bitcoin miner productivity boost option
-- ⚙️ New settings menu for customization (F6)
-- 🔔 Ability to disable toast notifications (月夜白 requested it)
-- 💬 Now supports all in game languages! (月夜白 requested it)
-
 v1.1.0 - ENHANCED UX UPDATE!
-- ✨ Random update intervals (2-5min) for unpredictability
-- 🔔 Visual toast notifications (base level only)
-- ⏰ 'Last Updated: Xm ago' format (no countdown)
-
 v1.0.2 - Price fluctuation system
-- 💰 Bitcoin prices 10k-150k with 2-20% volatility
-- 📊 Market data display with trend tracking
-- 🔧 Clean color-coded UI
+
+For full details of all these previous changes visit the mod's [changelog](https://steamcommunity.com/sharedfiles/filedetails/changelog/3593686226)
 
 **Note**: This mod is regularly updated. Check back for newer versions or consider using Steam Workshop if available on your platform.
