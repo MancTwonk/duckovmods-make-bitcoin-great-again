@@ -41,6 +41,21 @@ If you are sat around in your hideout when the price changes you will see an in 
 
 <u>Latest Changes</u>
 
+<u>v1.5.5 - MINOR BUG FIX UPDATE</u>
+- 🐛 FIXED: bitcoin price on HUD being removed when entering raids. It now self
+heals when changing levels base, ground zero, etc.
+
+<u>v1.5.4 - MINOR BUG FIX UPDATE</u>
+- 🐛 FIXED: improved the method we were writing the price to the HUD. now there
+should be no issues with the bitcoin price overlapping with other HUD elements.
+
+<u>v1.5.3 - MINOR BUG FIX UPDATE</u>
+- 🆕 ADDED: New way to open the settings direct from pause menu.
+
+<u>v1.5.2 - MINOR BUG FIX UPDATE</u>
+- 🐛 FIXED: Bug where the price that gets displayed on the HUD could overlap the
+sleep window text if both were enabled at the same time.
+
 <u>v1.5.1 - MINOR FEATURE ADDED</u>
 - 🆕 ADDED: New settings to configure the minimum and maximum Bitcoin price
 range during market updates. This allows you to set boundaries for how low or
