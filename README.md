@@ -41,6 +41,11 @@ If you are sat around in your hideout when the price changes you will see an in 
 
 <u>Latest Changes</u>
 
+<u>v1.5.6 - MINOR FEATURE ADDED</u>
+- 🆕 ADDED: New setting to enable/disable price protection. When enabled (default), the
+Bitcoin price will not drop below the configured minimum price during market updates.
+When disabled, the price can drop below the minimum all the way to 0.
+
 <u>v1.5.5 - MINOR BUG FIX UPDATE</u>
 - 🐛 FIXED: bitcoin price on HUD being removed when entering raids. It now self
 heals when changing levels base, ground zero, etc.
